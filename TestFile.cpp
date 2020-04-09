@@ -7,7 +7,7 @@ int main()
   cout << "Enter a no" << endl;
   cin >> i;
   
-  if((0 == i)  || (1 == i))
+  if((i < 100)
   {
     cout << "Entered No is: " << i << endl; // Updated as per input
   }
